@@ -1,0 +1,24 @@
+{
+    "name": "ja-martins/accounting",
+    "description": "Accounting.",
+    "authors": [
+        {
+            "name": "Jorge Almir Martins",
+            "email": "jorgealmirmartins@gmail.com"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2"
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jamartins\\Accounting\\": "source/"
+        }
+    }
+}
