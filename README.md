@@ -11,7 +11,7 @@ If you already have a composer.json file, just add the following dependency to y
 
 ```json
 "require": {
-    "mpdf/mpdf": "^8.0"
+    "ja-martins/accounting": "^1.0"
 }
 ```
 
@@ -21,9 +21,11 @@ If you already have a composer.json file, just add the following dependency to y
 
 require __DIR__ . '/vendor/autoload.php';
 
-use Jamartins\Report\Report;
+use Jamartins\Accounting\Account;
 
-$report = new Report();
+$account = new Account();
+
+var_dump($account->getAccount(4));
 ```
 
 ### Developer
